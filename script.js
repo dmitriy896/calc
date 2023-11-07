@@ -7,6 +7,8 @@ function press(num){
 }
 
 function equal(){
+    var audio = document.getElementById("audio");
+    audio.play();
     userInput.value = eval(expression)
     expression = '';
 }
